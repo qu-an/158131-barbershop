@@ -7,8 +7,8 @@
 <body>
 
 	<header class="header_catalog">
-		<div class="header_wrap">
-			<img src="#" class="logo_short">
+		<div class="header_wrap">               <!-- вот тут поясни, плз, про nav вместо div. див как центровщик, -->
+			<img src="#" class="logo_short">    <!-- а внутри же я сделал nav, или ты что имел в виду? -->
 
 			<nav class="main_navigation">
 				<ul style="list-style-type: none;">
@@ -39,122 +39,125 @@
 		<section class="section_left">	
 				<h3>ПРОИЗВОДИТЕЛИ:</h3>
 				<form>
-					<input type="checkbox" name="brand" id="baxter_of_california">
-					<label for="baxter_of_california">BAXTER OF CALIFORNIA</label><br>
-
-					<input type="checkbox" name="brand" id="mrnatty">
-					<label for="mrnatty">MR. NATTY</label><br>
-
-					<input type="checkbox" name="brand" id="suavecito">
-					<label for="suavecito">SUAVECITO</label><br>
-
-					<input type="checkbox" name="brand" id="malin_goetz">
-					<label for="malin_goetz">MALIN+GOETZ</label><br>
-
-					<input type="checkbox" name="brand" id="murray">
-					<label for="murray">MURRAY'S</label><br>
-
-					<input type="checkbox" name="brand" id="crew">
-					<label for="crew">AMERICAN CREW</label>
-				</form>
+					<div>
+						<input type="checkbox" name="brand" id="baxter_of_california">
+						<label for="baxter_of_california">BAXTER OF CALIFORNIA</label><br>
+					</div>
+					<div>
+						<input type="checkbox" name="brand" id="mrnatty">
+						<label for="mrnatty">MR. NATTY</label><br>
+					</div>	
+					<div>
+						<input type="checkbox" name="brand" id="suavecito">
+						<label for="suavecito">SUAVECITO</label><br>
+					</div>
+					<div>
+						<input type="checkbox" name="brand" id="malin_goetz">
+						<label for="malin_goetz">MALIN+GOETZ</label><br>
+					</div>	
+					<div>
+						<input type="checkbox" name="brand" id="murray">
+						<label for="murray">MURRAY'S</label><br>
+					</div>	
+					<div>
+						<input type="checkbox" name="brand" id="crew">
+						<label for="crew">AMERICAN CREW</label>
+					</div>					
 		
 				<h3>ГРУППЫ ТОВАРОВ:</h3>
-				<form>	
-					<input type="radio" name="product_groups" id="razor_accessories">
-					<label for="razor_accessories">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
-
-					<input type="radio" name="product_groups" id="care_products">
-					<label for="care_products">СРЕДСТВА ДЛЯ УХОДА</label><br>
-
-					<input type="radio" name="product_groups" id="accessories">
-					<label for="accessories">АКСЕССУАРЫ</label><br>
-				</form>
-				
-				<form>
-					<input type="submit" name="show" value="Показать">
+					<div>
+						<input type="radio" name="product_groups" id="razor_accessories">
+						<label for="razor_accessories">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
+					</div>	
+					<div>
+						<input type="radio" name="product_groups" id="care_products">
+						<label for="care_products">СРЕДСТВА ДЛЯ УХОДА</label><br>
+					</div>	
+					<div>
+						<input type="radio" name="product_groups" id="accessories">
+						<label for="accessories">АКСЕССУАРЫ</label><br>
+					</div>	
+					<div>	
+						<input type="submit" name="show" value="Показать">
+					</div>	
 				</form>
 		</section>
 
 		<section class="section_right">
 			<article class="product_card">
-				<img src="#" alt="Набор для путешествий  «Baxter of California»" width="220" height="165">
+				<a href="#" alt="Набор для путешествий  «Baxter of California»" width="220" height="165"></a>
 				<div>
-					<p class="product_card_descriprion">Набор для путешествий<br>«Baxter of California»</p>
-					<p class="product_card_price">2900 РУБ.</p> <!--тут же по идее из базы прайс подтягивается? как лучше тогда делать, чтоб РУБ. было отдельно? -->
+					<a href="#" class="product_card_descriprion">Набор для путешествий «Baxter of California»</a>
 					<div>
-						<a href="#">КУПИТЬ</a>
+						<div class="product_card_price">2900 РУБ.</div> 
+						<div>КУПИТЬ</div>
 					</div>
 				</div>
 			</article>
 
 			<article class="product_card">
-				<img src="#" alt="Увлажняющий кондиционер  «Baxter of California»" width="220" height="165">
+				<a href="#" alt="Увлажняющий кондиционер  «Baxter of California»" width="220" height="165"></a>
 				<div>
-					<p class="product_card_descriprion">Увлажняющий кондиционер<br>«Baxter of California»</p>
-					<p class="product_card_price">750 РУБ.</p> <!--тут же по идее из базы прайс подтягивается? как лучше тогда делать, чтоб РУБ. было отдельно? -->
+					<a href="#" class="product_card_descriprion">Увлажняющий кондиционер «Baxter of California»</a>
 					<div>
-						<a href="#">КУПИТЬ</a>
+						<div class="product_card_price">750 РУБ.</div> 
+						<div>КУПИТЬ</div>
 					</div>
 				</div>
 			</article>
 
 			<article class="product_card">
-				<img src="#" alt="Гель для волос «SUAVECITO»" width="220" height="165">
+				<a href="#" alt="Гель для волос «SUAVECITO»" width="220" height="165"></a>
 				<div>
-					<p class="product_card_descriprion">Гель для волос<br>«SUAVECITO»</p>
-					<p class="product_card_price">290 РУБ.</p> <!--тут же по идее из базы прайс подтягивается? как лучше тогда делать, чтоб РУБ. было отдельно? -->
+					<a href="#" class="product_card_descriprion">Гель для волос «SUAVECITO»</a>
 					<div>
-						<a href="#">КУПИТЬ</a>
+						<div class="product_card_price">290 РУБ.</div> 
+						<div>КУПИТЬ</div>
 					</div>
 				</div>
 			</article>
 
 			<article class="product_card">
-				<img src="#" alt="Глина для укладки волос «American crew»" width="220" height="165">
+				<a href="#" alt="Глина для укладки волос «American crew»" width="220" height="165"></a>
 				<div>
-					<p class="product_card_descriprion">Глина для укладки волос<br>«American crew»</p>
-					<p class="product_card_price">500 РУБ.</p> <!--тут же по идее из базы прайс подтягивается? как лучше тогда делать, чтоб РУБ. было отдельно? -->
+					<a href="#" class="product_card_descriprion">Глина для укладки волос «American crew»</a>
 					<div>
-						<a href="#">КУПИТЬ</a>
+						<div class="product_card_price">500 РУБ.</div> 
+						<div>КУПИТЬ</div>
 					</div>
 				</div>
 			</article>
 
 			<article class="product_card"> 
-				<img src="#" alt="Гель для волос «AMERICAN CREW»" width="220" height="165">
+				<a href="#" alt="Гель для волос «AMERICAN CREW»" width="220" height="165"></a>
 				<div>
-					<p class="product_card_descriprion">Гель для волос<br>«AMERICAN CREW»</p>
-					<p class="product_card_price">300 РУБ.</p> <!--тут же по идее из базы прайс подтягивается? как лучше тогда делать, чтоб РУБ. было отдельно? -->
+					<a href="#" class="product_card_descriprion">Гель для волос «AMERICAN CREW»</a>
 					<div>
-						<a href="#">КУПИТЬ</a>
+						<div class="product_card_price">300 РУБ.</div> 
+						<div>КУПИТЬ</div>
 					</div>
 				</div>
 			</article>
 
 			<article class="product_card">
-				<img src="#" alt="Набор для путешествий  «Baxter of California»" width="220" height="165">
+				<a href="#" alt="Набор для путешествий  «Baxter of California»" width="220" height="165"></a>
 				<div>
-					<p class="product_card_descriprion">Набор для путешествий<br> «Baxter of California»</p>
-					<p class="product_card_price">2900 РУБ.</p> <!--тут же по идее из базы прайс подтягивается? как лучше тогда делать, чтоб РУБ. было отдельно? -->
+					<a href="#" class="product_card_descriprion">Набор для путешествий «Baxter of California»</a>
 					<div>
-						<a href="#">КУПИТЬ</a>
+						<div class="product_card_price">2900 РУБ.</div> 
+						<div>КУПИТЬ</div>
 					</div>
 				</div>
 			</article>
 		</section>
 
-			<div>
-				<a href="#">1</a>
-			</div>
-			<div>
-				<a href="#">2</a>
-			</div>
-			<div>
-				<a href="#">3</a>
-			</div>
-			<div>
-				<a href="#">4</a>
-			</div>
+			<ul style="list-style-type: none;">
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+			</ul>
+
 		</div>
 	</main>
 
@@ -170,9 +173,11 @@
 
         <section class="footer_social">
           <p>Давайте дружить!</p>
-          <a class="social_btn social_btn_vk" href="#">Вконтакте</a>
-          <a class="social_btn social_btn_fb" href="#">Фейсбук</a>
-          <a class="social_btn social_btn_inst" href="#">Инстаграм</a>
+          <ul>
+          	<li><a class="social_btn social_btn_vk" href="#">Вконтакте</a></li>
+	        <li><a class="social_btn social_btn_fb" href="#">Фейсбук</a></li>
+	        <li><a class="social_btn social_btn_inst" href="#">Инстаграм</a></li>
+          </ul>
         </section>
         
         <section class="footer_copyright">
