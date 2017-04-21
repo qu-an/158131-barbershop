@@ -1,0 +1,29 @@
+body {
+	font-family: "PT Sans";
+	font-stretch: condensed; 
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+}
+
+.h1_hidden {
+	font-family: "PT Sans";
+	font-stretch: condensed; 
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+}
+
+
+
+.page_name {
+	font-family: "PT Sans";
+	font-stretch: condensed; 
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 42px;
+	color: black;
+}
+
