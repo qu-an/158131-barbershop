@@ -8,8 +8,6 @@ body {
 }
 
 .h1_hidden {
-	font-family: "PT Sans";
-	font-stretch: condensed; 
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 24px;
@@ -19,11 +17,8 @@ body {
 
 
 .page_name {
-	font-family: "PT Sans";
-	font-stretch: condensed; 
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 42px;
 	color: black;
 }
-
